@@ -12,3 +12,10 @@ const displayMeal = (meals) => {
         console.log(meal)
     })
 }
+
+
+function sum(p,z){
+    p+z;
+}
+
+console.log(sum(2,3));
