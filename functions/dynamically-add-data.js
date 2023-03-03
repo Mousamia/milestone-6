@@ -56,3 +56,15 @@ data.forEach( (datam, id)=>{
     cardDiv.appendChild(card);
  //    card.style.backgroundColor ="tomato";
  })
+
+
+//  hidin gadata
+cardDiv.appendChild(card);
+//    console.log(index);
+
+//    hiding card 
+if(index>5){
+    card.classList.add('hidden')
+}
+
+// forEach function returns index of something
